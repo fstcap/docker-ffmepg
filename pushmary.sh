@@ -1,0 +1,1 @@
+rsync -avz --exclude="venv" --exclude=".git" --exclude=".idea" --exclude="__pycache__" * fst@172.16.10.7:/home/fst/workshop/ffmpeg/
